@@ -23,7 +23,8 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('𝙿𝚁𝙸𝚅𝙰𝚃𝙴 𝙱𝙾𝚃', url=f"https://t.me/Aadhi011")
+                InlineKeyboardButton('𝙶𝚛𝚘𝚞𝚙', url=f"https://t.me/M_E_CHAT"),
+                InlineKeyboardButton('𝙲𝚑𝚊𝚗𝚗𝚎𝚕', url=f"https://t.me/M_E_UPDATEZ")
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -44,8 +45,8 @@ async def start(client, message):
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/MWUpdatez'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/OpusTechz')
+            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/M_E_UPDATEZ'),
+            InlineKeyboardButton('💠 GᖇOᑌᑭ 💠', url='https://t.me/M_E_CHAT')
             ]]     
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_photo(
@@ -89,12 +90,12 @@ async def start(client, message):
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/MWUpdatez'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/OpusTechz')
+            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/M_E_UPDATEZ'),
+            InlineKeyboardButton('💠 GᖇOᑌᑭ 💠', url='https://t.me/M_E_CHAT')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action("typing")
-        m=await message.reply("<b>𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ›› [𝙾𝙿𝚄𝚂-𝚃𝙴𝙲𝙷𝚉](https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA)</b>") 
+        m=await message.reply("<b>𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ›› [𝙼𝙾𝚅𝙸𝙴 𝙴𝙼𝙿𝙸𝚁𝙴](https://t.me/M_E_UPDATEZ)</b>") 
         await asyncio.sleep(10)
         await m.delete()
         await message.reply_photo(
